@@ -1,0 +1,107 @@
+.image {
+  background-color: #0072ce;
+  
+  background-size: cover;
+  height: 570px;
+  margin-top: -20px;
+}
+.image .heading {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+}
+.image p {
+  text-align: center;
+  padding: 20px 60px;
+}
+.image p .btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 1.2em;
+}
+.image p .btn:hover {
+  color: #61acf0;
+  border-color: #61acf0;
+}
+
+.navbar {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  -webkit-transition: background-color 1s ease 0s;
+  transition: background-color 1s ease 0s;
+}
+
+.navbar-default .navbar-brand {
+  margin-top: 10px;
+  color: white;
+}
+.navbar-default .navbar-brand:hover {
+  color: #61acf0;
+  border: 1px solid #61acf0;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  margin: 10px 5px 5px 5px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+  color: #61acf0;
+  border: 1px solid #61acf0;
+}
+.navbar-default .navbar-nav > li > a:visited {
+  color: #61acf0;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #61acf0;
+}
+.navbar-default .navbar-toggle {
+  border-color: #61acf0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #0072ce;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  color: #61acf0;
+  background-color: #61acf0;
+}
+.navbar-default .navbar-collapse.collapse.in ul {
+  background-color: #0072ce;
+}
+
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+  background-color: #0072ce;
+  -webkit-transition: background-color 1s ease 0s;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-brand {
+  color: #f6f6f6;
+  -webkit-transition: color 1s ease 0s;
+  transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+  color: #f6f6f6;
+  -webkit-transition: color 1s ease 0s;
+  transition: color 1s ease 0s;
+}
+
+.about {
+  background-color: #f6f6f6;
+  color: #0072ce;
+  height: 600px;
+  text-align: center;
+  margin-top: -20px;
+}
+.about h2 {
+  padding-top: 220px;
+}
+.about p {
+  padding: 20px 80px;
+}
